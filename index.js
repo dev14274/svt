@@ -59,7 +59,7 @@ filters_list['1'].forEach((item) => {
 console.log("AMOUNT OF COMBINATIONS", varios_filters.length);
 const s_filters = shuffle(varios_filters);
 console.log(s_filters);
-send_telegram_msg("STARTING PARSER");
+send_telegram_msg(item);
 
 const Parser = async () => {
     var memory = [];
